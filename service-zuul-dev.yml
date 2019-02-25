@@ -1,0 +1,9 @@
+zuul:
+  routes:
+    item-service:
+      path: /item-service/**
+#      url: http://127.0.0.1:8081
+      serviceId: app-item
+    order-service:
+      path: /order-service/**
+      serviceId: app-order
